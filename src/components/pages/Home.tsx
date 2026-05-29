@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SearchBar from "../ui/SearchBar";
 import z from "zod";
 
 import type { Artwork } from "../types/artwork";
-import { ArtworkSchema, SearchResponseSchema } from "../types/artwork";
+import {  SearchResponseSchema } from "../types/artwork";
 import ArtworkList from "../ui/ArtworkList";
 
 export default function Home() {
